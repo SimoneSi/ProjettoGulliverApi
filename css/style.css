@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgba(204, 204, 204, 0.5) ;
+}
+
+.cabecalho{
+    color:#fff;
+    height: 14vh;
+    background-color: #033d73f2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+ a{
+    color: #fff;
+ }
+ .menu li{
+    margin: 0 1px;
+ }
+.menu_link{
+    list-style: none;
+    display: flex;
+ }
+ .menu_item a{
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    text-decoration: none;
+ }
+ a:hover{
+    text-decoration: underline;
+ }
+
+.paragrafo{
+    margin: 5vh 5vh 10vh 3vh;
+}
+
+.rodape p{   
+    text-align: center;
+    margin: 5vh 0 0 0;
+    padding: 10vh;
+    color:#fff;
+    height: 14vh;
+    background-color: #033d73f2;  
+}
